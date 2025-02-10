@@ -1,0 +1,9 @@
+# Supabase Configuration
+REACT_APP_SUPABASE_URL=your_supabase_url
+REACT_APP_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+# n8n Configuration (if using)
+REACT_APP_N8N_WEBHOOK_URL=your_n8n_webhook_url
+
+# Other Configuration
+REACT_APP_API_URL=your_api_url

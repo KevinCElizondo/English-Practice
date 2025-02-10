@@ -28,6 +28,17 @@ body {
   color: white;
   margin-bottom: 2rem;
   border-radius: 8px;
+  position: relative;
+}
+
+.user-points {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: var(--secondary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-weight: bold;
 }
 
 .modules-list {
@@ -43,7 +54,7 @@ body {
   padding: 20px;
 }
 
-.module-card {
+.module-card, .activity-card {
   background-color: var(--card-background);
   border-radius: 8px;
   padding: 20px;
@@ -55,7 +66,7 @@ body {
   transform: translateY(-5px);
 }
 
-.module-card h3 {
+.module-card h3, .activity-card h3 {
   color: var(--primary-color);
   margin-top: 0;
 }
@@ -67,6 +78,19 @@ body {
   color: #666;
 }
 
+.activity-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.flashcard, .translation {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f8fafc;
+  border-radius: 8px;
+}
+
 button {
   background-color: var(--primary-color);
   color: white;
@@ -76,6 +100,7 @@ button {
   cursor: pointer;
   font-size: 1rem;
   transition: background-color 0.2s ease-in-out;
+  margin-top: 15px;
 }
 
 button:hover {
